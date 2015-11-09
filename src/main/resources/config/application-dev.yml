@@ -21,9 +21,8 @@ spring:
     datasource:
         driver-class-name: org.postgresql.ds.PGSimpleDataSource
         url: jdbc:postgresql://localhost:5432/health
-        name:
         username: health
-        password:
+        password: health
     jpa:
         database-platform: io.ragnar.domain.util.FixedPostgreSQL82Dialect
         database: POSTGRESQL
