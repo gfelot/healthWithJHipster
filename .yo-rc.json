@@ -1,0 +1,24 @@
+{
+  "generator-jhipster": {
+    "baseName": "health",
+    "packageName": "io.ragnar",
+    "packageFolder": "io/ragnar",
+    "authenticationType": "session",
+    "hibernateCache": "ehcache",
+    "clusteredHttpSession": "no",
+    "websocket": "spring-websocket",
+    "databaseType": "sql",
+    "devDatabaseType": "postgresql",
+    "prodDatabaseType": "postgresql",
+    "searchEngine": "elasticsearch",
+    "useSass": false,
+    "buildTool": "gradle",
+    "frontendBuilder": "grunt",
+    "enableTranslation": true,
+    "enableSocialSignIn": false,
+    "rememberMeKey": "7e57ae36c693e4d3c70882a3f101626387a7377e",
+    "testFrameworks": [
+      "gatling"
+    ]
+  }
+}
